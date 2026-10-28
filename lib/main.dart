@@ -95,11 +95,11 @@ class _ProfilePageState extends State<ProfilePage> {
                   ),
                   child:Row(
                     mainAxisAlignment:MainAxisAlignment.spaceEvenly,
-                    children:[
-                      Expanded(child: _stat('36','关注')),
-                      Expanded(child: _stat('87','粉丝')),
-                      Expanded(child: _stat('354','点赞')),
-                    ]
+                   children: [
+                      Expanded(child: _stat('36', '关注')),
+                      Expanded(child: _stat('87', '粉丝')),
+                      Expanded(child: _stat('354', '点赞')),
+                    ],
                   ),
                 ),
                 const SizedBox(height:20),
